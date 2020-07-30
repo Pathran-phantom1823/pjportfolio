@@ -1,0 +1,28 @@
+<div>
+  <div>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <a class="navbar-brand" href="#">Princess Joy Duran</a>
+          
+          <ul class="navbar-nav ml-auto nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/']">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/resume']">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/projects']">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/contact']">Contact</a>
+            </li>
+          </ul>
+        </nav>
+  </div>
+  <div class="containers">
+      <router-outlet></router-outlet>
+  </div>
+  <div class="footer">
+      <p>By: Princess Joy Duran</p>
+    </div>
+</div>

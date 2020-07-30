@@ -1,0 +1,13 @@
+.containers {
+    height: 86vh;
+    background-image: linear-gradient(to right top, #898989, #a5a5a5, #c2c2c2, #e0e0e0, #ffffff);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343A40 !important;
+    color: white;
+    text-align: center;
+ }
